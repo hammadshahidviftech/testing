@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "metadataupdate-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/metadataupdate/MetadataupdateWebPart.js",
+          "manifest": "./src/webparts/metadataupdate/MetadataupdateWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MetadataupdateWebPartStrings": "lib/webparts/metadataupdate/loc/{locale}.js"
+  }
+}
